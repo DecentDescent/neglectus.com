@@ -8,7 +8,7 @@ export default class About extends React.Component {
       >
         {({ isVisible }) => (
           <section
-            id="nevsimejte-si-nas"
+            id="neglect-us"
             className={
               "section section--inverted " +
               (isVisible ? "section--visible" : "section--invisible")

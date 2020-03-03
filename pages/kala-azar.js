@@ -17,8 +17,8 @@ export default class extends SmartPage {
           ogDescription="They call me “black fever”, which translates in Hindi to kala-azar. But beware, I'm not picky when it comes to places to go. You can find me in over 70 countries. My favourites are India, Bangladesh, Ethiopia or Brazil. My minions – mosquitos – infect hundreds of thousands of people a year with Visceral Leishmaniasis. And if it develops into a serious stage, it's my turn. You will recognize me by the ulcers around the bite mark. Later I attack the immune system. I love internal organs, especially the liver and spleen. When I feed, my hosts lose weight and tend to be anaemic. Mostly in Africa, they try to get rid of me with treatment developed in the 1930s which is long, painful, toxic, and expensive. Even then some hosts don't have access to it. Without treatment, most people die. Just to tell you, I am the deadliest parasitic disease after malaria. I kill thousands of people every year."
           ogImage={myUrl + "/static/img/og/kala-azar.jpg?v=1"}
           twitterCard="summary"
-          twitterSite="@msf_czech"
-          twitterCreator="@msf_czech"
+          twitterSite="@MSF"
+          twitterCreator="@MSF"
         />
         <Header />
         <Disease

@@ -118,7 +118,7 @@ export default class Header extends React.Component {
         >
           <ul>
             <li>
-              <a href="index#nevsimejte-si-nas" onClick={this.closeAll}>
+              <a href="index#neglect-us" onClick={this.closeAll}>
                 Neglect us!!
               </a>
             </li>
@@ -148,12 +148,12 @@ export default class Header extends React.Component {
               </a>
             </li>
             <li>
-              <a href="index#o-projektu" onClick={this.closeAll}>
+              <a href="index#about-project" onClick={this.closeAll}>
                 About project
               </a>
             </li>
             <li>
-              <a href="index#casto-kladene-dotazy" onClick={this.closeAll}>
+              <a href="index#faq" onClick={this.closeAll}>
                 Frequently asked questions
               </a>
             </li>

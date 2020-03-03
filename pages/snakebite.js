@@ -17,8 +17,8 @@ export default class extends SmartPage {
           ogDescription="Until quite recently I have been so neglected, that I wasn’t even on the list of neglected diseases of the World Health Organization (WHO), although my ambassadors – snakes - bite five million people annually. Over 100,000 of them die, leaving further 400,000 disabled (sometimes their leg or something else needs to be amputated). I'm almost everywhere but most of my victims live in the countryside where there are not enough doctors and money for expensive serums. For example, a serum effective for most types of poisons is needed in Africa. They had one which worked against 10 types of me! But the pharmaceutical company stopped producing it (it wasn’t profitable). Now people in Africa have issues with serums that treat fewer of my forms. My victims usually don’t know which of my snake delegates visited them, so it's hard for the health workers to figure out how to get rid of me. Last year I got a little nervous when WHO put me on that list of theirs. But let's see…"
           ogImage={myUrl + "/static/img/og/hadi-ustknuti.jpg?v=1"}
           twitterCard="summary"
-          twitterSite="@msf_czech"
-          twitterCreator="@msf_czech"
+          twitterSite="@MSF"
+          twitterCreator="@MSF"
         />
         <Header type="single-page" />
         <Disease

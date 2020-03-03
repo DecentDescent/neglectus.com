@@ -9,7 +9,7 @@ export default class About extends React.Component {
       >
         {({ isVisible }) => (
           <section
-            id="o-projektu"
+            id="about-project"
             className={
               "section " +
               (isVisible ? "section--visible" : "section--invisible")

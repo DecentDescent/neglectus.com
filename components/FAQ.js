@@ -16,7 +16,7 @@ export default class FAQ extends React.Component {
       >
         {({ isVisible }) => (
           <section
-            id="casto-kladene-dotazy"
+            id="faq"
             className={
               "section section--inverted section--padding " +
               (isVisible ? "section--visible" : "section--invisible")
@@ -183,7 +183,7 @@ export default class FAQ extends React.Component {
             </div>
 
             <div className="more-info">
-              Podrobnější informce o jednotlivých nemocech najdete zde:
+              More detailed information about each disease can be found here:
               <ul>
                 <li>
                   <a
@@ -198,7 +198,7 @@ export default class FAQ extends React.Component {
                     href="https://www.lekari-bez-hranic.cz/chagasova-choroba"
                     target="_blank"
                   >
-                    Chagasova choroba
+                    Chagas disease
                   </a>
                 </li>
                 <li>
@@ -206,7 +206,7 @@ export default class FAQ extends React.Component {
                     href="https://www.lekari-bez-hranic.cz/hadi-ustknuti"
                     target="_blank"
                   >
-                    Hadí uštknutí
+                    Snakebite
                   </a>
                 </li>
                 <li>
@@ -214,7 +214,7 @@ export default class FAQ extends React.Component {
                     href="https://www.lekari-bez-hranic.cz/tuberkuloza"
                     target="_blank"
                   >
-                    Tuberkulóza
+                    Tuberculosis
                   </a>
                 </li>
                 <li>
@@ -222,7 +222,7 @@ export default class FAQ extends React.Component {
                     href="https://www.lekari-bez-hranic.cz/spava-nemoc"
                     target="_blank"
                   >
-                    Spavá nemoc
+                    Sleeping sicknes
                   </a>
                 </li>
               </ul>
@@ -234,7 +234,7 @@ export default class FAQ extends React.Component {
                   target="_blank"
                   className="btn"
                 >
-                  Chci Darovat
+                  Donate
                 </a>
               </div>
               <footer>

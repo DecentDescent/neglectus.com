@@ -1,14 +1,5 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "status": 301,
-      "headers": {
-        "Location": "https://neglectus.com/$1"
-      }
-    }
-  ],
   "name": "neglectuscom",
   "builds": [
     {
