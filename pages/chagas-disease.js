@@ -25,7 +25,7 @@ export default class extends SmartPage {
         <Preloader />
         <Disease
           name="chagas-disease"
-          title="Chagas disease "
+          title="Chagas disease"
           description="My favourite time is mostly during the night when the blood-sucking “kissing bugs” crawl from the muddy walls and straw rooftops of houses. Their kiss is often my ticket to ride inside human bodies. I can also sneak in through blood transfusions or breastfeeding. My victims usually don't know about me for years. I'm not easily discovered. At first, I am mild, showing up as other diseases with fevers, fatigue, aches, nausea. If I decide to move in, I settle down in the nervous and digestive systems, causing everlasting damage to the heart… Only a few drugs can defeat me and even these need to be brought in quickly after I’ve arrived. I nest in at least 6,000,000 people and I kill 8,000 of them every year. I attack almost exclusively in Latin America, although my hosts can carry me anywhere. Isn’t it wonderful?"
           singlePage="is-single-page"
           direction="rtl"

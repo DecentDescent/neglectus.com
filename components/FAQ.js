@@ -25,7 +25,7 @@ export default class FAQ extends React.Component {
             <div className="container">
               <h2>
                 FREQUENTLY ASKED QUESTIONS ABOUT THE EXHIBITION AND THE WEB
-                IGNORE US / DON'T MIND UD / FORGET ABOUT US! KALA AZAR & COMP.
+                NEGLECT US! KALA AZAR & COMP.
               </h2>
               <Accordion accordion="false">
                 <AccordionItem>
@@ -187,7 +187,7 @@ export default class FAQ extends React.Component {
               <ul>
                 <li>
                   <a
-                    href="https://www.lekari-bez-hranic.cz/kala-azar"
+                    href="https://www.msf.org/search?keyword=kala-azar"
                     target="_blank"
                   >
                     Kala Azar
@@ -195,7 +195,7 @@ export default class FAQ extends React.Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.lekari-bez-hranic.cz/chagasova-choroba"
+                    href="https://www.msf.org/search?keyword=chagas+disease"
                     target="_blank"
                   >
                     Chagas disease
@@ -203,7 +203,7 @@ export default class FAQ extends React.Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.lekari-bez-hranic.cz/hadi-ustknuti"
+                    href="https://www.msf.org/search?keyword=snakebite"
                     target="_blank"
                   >
                     Snakebite
@@ -211,7 +211,7 @@ export default class FAQ extends React.Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.lekari-bez-hranic.cz/tuberkuloza"
+                    href="https://www.msf.org/search?keyword=tuberculosis"
                     target="_blank"
                   >
                     Tuberculosis
@@ -219,7 +219,7 @@ export default class FAQ extends React.Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.lekari-bez-hranic.cz/spava-nemoc"
+                    href="https://www.msf.org/search?keyword=sleeping-sickness"
                     target="_blank"
                   >
                     Sleeping sicknes
@@ -230,7 +230,7 @@ export default class FAQ extends React.Component {
             <div className="container">
               <div className="donate">
                 <a
-                  href="https://darujte.lekari-bez-hranic.cz/osoba/vyse-daru/0?_ga=2.180922595.514679042.1533986827-1440885372.1533497215&_gac=1.247260848.1533501640.EAIaIQobChMIoJjx3eLW3AIVQeaaCh35qwWqEAAYASAAEgIF-vD_BwE"
+                  href="https://www.msf.org/donate"
                   target="_blank"
                   className="btn"
                 >
@@ -241,7 +241,7 @@ export default class FAQ extends React.Component {
                 <ul>
                   <li>
                     <a
-                      href="https://www.facebook.com/lekaribezhranic/"
+                      href="https://www.facebook.com/msf.english/"
                       target="_blank"
                       className="fb"
                     >
@@ -255,7 +255,7 @@ export default class FAQ extends React.Component {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/msf_czech/"
+                      href="https://www.instagram.com/doctorswithoutborders/"
                       target="_blank"
                       className="ig"
                     >
@@ -272,7 +272,7 @@ export default class FAQ extends React.Component {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/company-beta/2454721/"
+                      href="https://www.linkedin.com/company/m-decins-sans-fronti-res-msf-/"
                       target="_blank"
                       className="li"
                     >
@@ -287,7 +287,7 @@ export default class FAQ extends React.Component {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/msf_czech"
+                      href="https://twitter.com/msf"
                       target="_blank"
                       className="tw"
                     >

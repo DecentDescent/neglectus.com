@@ -57,8 +57,8 @@ export default class Index extends React.Component {
     var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
     var heroElement = document.getElementById("hero");
-    var darkElement1 = document.getElementById("nevsimejte-si-nas");
-    var darkElement2 = document.getElementById("casto-kladene-dotazy");
+    var darkElement1 = document.getElementById("neglect-us");
+    var darkElement2 = document.getElementById("faq");
     var heroElementHeight = parseInt(heroElement.clientHeight);
     var darkElement1Height = parseInt(darkElement1.clientHeight);
     var darkElement1Offset = parseInt(darkElement1.offsetTop);

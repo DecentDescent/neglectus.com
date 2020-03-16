@@ -233,7 +233,7 @@ p {
     display: none;
   }
   @keyframes fadeLogoOut {
-    0%  {
+    0% {
       opacity: 1;
     }
     100% {
@@ -390,6 +390,13 @@ svg .text {
       display: flex;
     }
 
+    a.navitem-lang {
+      display: flex;
+      color: $color-text;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     a.navitem-nav {
       display: flex;
     }
@@ -532,6 +539,24 @@ svg .text {
     padding: 20px;
     box-sizing: border-box;
     z-index: 1;
+
+    h1 {
+      color: $color-text;
+      font-size: 78px;
+      letter-spacing: -1px;
+      margin: 0;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+
+    h2 {
+      color: $color-text;
+      font-size: 32px;
+      letter-spacing: -1px;
+      margin: 0;
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
   }
 
   .hero__right {
@@ -570,10 +595,10 @@ svg .text {
 }
 
 #kala-azar,
-#chagasova-choroba,
-#hadi-ustknuti,
-#tuberkuloza,
-#spava-nemoc {
+#chachagas-disease,
+#snakebite,
+#tuberculosis,
+#sleeping-sickness {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -585,28 +610,28 @@ svg .text {
     background-position: center center;
   }
 }
-#chagasova-choroba {
+#chagas-disease {
   background-image: url("/static/img/bg/img-chagasova-choroba-bg.jpg");
   background-position: right center;
   @media (max-width: 1200px) {
     background-position: center center;
   }
 }
-#hadi-ustknuti {
+#snakebite {
   background-image: url("/static/img/bg/img-hadi-ustknuti-bg.jpg");
   background-position: left center;
   @media (max-width: 1200px) {
     background-position: center center;
   }
 }
-#tuberkuloza {
+#tuberculosis {
   background-image: url("/static/img/bg/img-tuberkuloza-bg.jpg");
   background-position: right center;
   @media (max-width: 1200px) {
     background-position: center center;
   }
 }
-#spava-nemoc {
+#sleeping-disease {
   background-image: url("/static/img/bg/img-spava-nemoc-bg.jpg");
   background-position: right center;
   @media (max-width: 1200px) {
@@ -614,7 +639,7 @@ svg .text {
   }
 }
 
-#casto-kladene-dotazy {
+#faq {
   flex-direction: column;
   padding-bottom: 0;
   .more-info {
@@ -916,11 +941,13 @@ svg .text {
   }
 }
 
-
-
 iframe {
   opacity: 0;
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.text {
+  fill: #000;
 }

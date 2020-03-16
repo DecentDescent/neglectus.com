@@ -72,7 +72,8 @@ export default () => (
     />
     <div className="hero__background" />
     <div className="hero__left">
-      <img src="static/img/headline.png" />
+      <h1>Neglect Us!</h1>
+      <h2>Kala Azar &amp; Company</h2>
     </div>
     <div className="hero__right" />
   </section>
