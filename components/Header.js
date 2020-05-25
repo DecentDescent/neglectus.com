@@ -13,7 +13,7 @@ export default class Header extends React.Component {
   openNavigation() {
     this.setState(() => ({
       isNavOn: true,
-      closeOn: true
+      closeOn: true,
     }));
     document.body.classList.add("modal--active");
   }
@@ -21,7 +21,7 @@ export default class Header extends React.Component {
   openSharing() {
     this.setState(() => ({
       isSharingOn: true,
-      closeOn: true
+      closeOn: true,
     }));
     document.body.classList.add("modal--active");
   }
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
     this.setState(() => ({
       isNavOn: false,
       isSharingOn: false,
-      closeOn: false
+      closeOn: false,
     }));
     document.body.classList.remove("modal--active");
   }
@@ -201,7 +201,7 @@ export default class Header extends React.Component {
           <ul>
             <li>
               <a href="index#neglect-us" onClick={this.closeAll}>
-                Neglect us!!
+                Neglect us!
               </a>
             </li>
             <li>
@@ -211,7 +211,7 @@ export default class Header extends React.Component {
             </li>
             <li>
               <a href="index#chagas-disease" onClick={this.closeAll}>
-                Chagas disesase
+                Chagas disease
               </a>
             </li>
             <li>

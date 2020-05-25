@@ -26,13 +26,13 @@ export default class Index extends React.Component {
 
   toggleModal() {
     this.setState(() => ({
-      shareModalOpened: true
+      shareModalOpened: true,
     }));
   }
 
   closeInfoModal() {
     this.setState(() => ({
-      infoModalOpened: false
+      infoModalOpened: false,
     }));
     document.body.classList.remove("modal--active");
   }
@@ -40,7 +40,7 @@ export default class Index extends React.Component {
   onShareClick(name, title) {
     this.setState(() => ({
       shareModalName: name,
-      shareModalTitle: title
+      shareModalTitle: title,
     }));
     this.toggleModal();
     document.body.classList.add("modal--active");
@@ -48,7 +48,7 @@ export default class Index extends React.Component {
 
   onShareModalClose() {
     this.setState(() => ({
-      shareModalOpened: false
+      shareModalOpened: false,
     }));
     document.body.classList.remove("modal--active");
   }
@@ -92,7 +92,7 @@ export default class Index extends React.Component {
       w[l] = w[l] || [];
       w[l].push({
         "gtm.start": new Date().getTime(),
-        event: "gtm.js"
+        event: "gtm.js",
       });
       var f = d.getElementsByTagName(s)[0],
         j = d.createElement(s),
@@ -105,7 +105,7 @@ export default class Index extends React.Component {
     var thisURL = location.hash.substr(1);
     if (thisURL === "notice") {
       this.setState(() => ({
-        infoModalOpened: true
+        infoModalOpened: true,
       }));
       document.body.classList.add("modal--active");
     }
@@ -160,7 +160,7 @@ export default class Index extends React.Component {
           name="tuberculosis"
           title="Tuberculosis"
           copyTitle="Tuberculosis"
-          description="Officially I might not belong to the company of the neglected diseases, but you cannot deny my place here. The world had almost forgotten about me – I didn’t scare it as much anymore – thinking me a disease of the past. They couldn't be more wrong. I'm the deadliest infection in the world. I surpass HIV in the number of victims. Every year I make nearly 10 million people sick and send two million to the afterlife. I'm doing well in India, China, Nigeria or in Central Asian countries. Mostly I go after the lungs, but I don't mind bones and the nervous system either. I'm especially horrifying in my resistant forms. These are called “Ebola with wings”. We are both equally deadly but all I need to spread is air. Once I get this strong, it takes a very long time to destroy me and my hosts suffer. Recently, three new drugs have been developed against my resistant form. I'm quite scared of them. But they are expensive and only a small amount of people get them. So, I'm hoping they will keep gathering dust on pharmacies' shelves."
+          description="Officially I might not belong to the company of the neglected diseases, but you cannot deny my place here. The world had almost forgotten about me – I didn’t scare it as much anymore – thinking me a disease of the past. They couldn't be more wrong. I'm the deadliest infection in the world. I surpass HIV in the number of victims. Every year I make nearly 10 million people sick and send one and a half million to the afterlife. I'm doing well in India, China, Nigeria or in Central Asian countries. Mostly I go after the lungs, but I don't mind bones and the nervous system either. I'm especially horrifying in my resistant forms. These are called “Ebola with wings”. We are both equally deadly but all I need to spread is air. Once I get this strong, it takes a very long time to destroy me and my hosts suffer. Recently, three new drugs have been developed against my resistant form. I'm quite scared of them. But they are expensive and only a small amount of people get them. So, I'm hoping they will keep gathering dust on pharmacies' shelves."
           onShareClick={this.onShareClick}
           singlePage="not-single-page"
           direction="rtl"

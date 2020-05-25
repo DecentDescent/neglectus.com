@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "neglectuscom",
   "builds": [
     {
       "src": "next.config.js",

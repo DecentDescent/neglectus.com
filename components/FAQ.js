@@ -2,7 +2,7 @@ import {
   Accordion,
   AccordionItem,
   AccordionItemTitle,
-  AccordionItemBody
+  AccordionItemBody,
 } from "react-accessible-accordion";
 
 export default class FAQ extends React.Component {
@@ -222,7 +222,7 @@ export default class FAQ extends React.Component {
                     href="https://www.msf.org/search?keyword=sleeping-sickness"
                     target="_blank"
                   >
-                    Sleeping sicknes
+                    Sleeping sickness
                   </a>
                 </li>
               </ul>
