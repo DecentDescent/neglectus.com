@@ -18,7 +18,7 @@ export default class ShareModal extends React.Component {
               className="sharing-avatar"
               style={{
                 backgroundImage:
-                  "url(static/img/sharing/sharing-" + this.props.name + ".jpg"
+                  "url(static/img/sharing/sharing-" + this.props.name + ".jpg",
               }}
             >
               <a
@@ -53,9 +53,9 @@ export default class ShareModal extends React.Component {
               </a>
               <a
                 href={
-                  "mailto:?&subject=Varujte před " +
+                  "mailto:?&subject=Let others know: " +
                   this.props.title +
-                  "! - Lékaři bez hranic&body=Nenechte%20nemoc%20se%20%C5%A1%C3%AD%C5%99it%20a%20%C5%A1i%C5%99te%20pov%C4%9Bdom%C3%AD%20o%20ni.%20To%20ji%20oslabuje.%0ANav%C5%A1tivte%20str%C3%A1nky%20projektu%20Nev%C5%A1%C3%ADmejte%20si%20n%C3%A1s!%20Kala%20Azar%20a%20spol.%20na%20http%3A//www.nevsimejtesinas.cz"
+                  "! - Doctors Without Borders&body=Do%20not%20let%20the%20disease%20spread.%20Spread%20awareness%20and%20help%20fight%20the%20disease.%0AVisit%20website%20Neglect%20Us!%20Kala%20Azar%20%26%20Company%20at%20http%3A%2F%2Fneglectus.com"
                 }
                 className="sharing-ma"
               >
